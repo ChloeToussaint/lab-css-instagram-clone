@@ -6,5 +6,61 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  height:100vh;
   margin: 0;
+  padding: 0;
+  background-color: #06365F;
+}
+}
+.description{
+  background-color: white;
+  display: flex;
+}
+.description main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tagline {
+  font-weight: 600;
+  color: #1C5380;
+}
+.titreLogin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#container-and-footer {
+  margin: auto;
+  width: 60%;
+}
+.container {
+  display:flex;
+  flex-direction: row;
+}
+.group1 {
+  margin-right:50px; ;
+}
+.group2 {
+display: flex;
+flex-direction: column;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  text-decoration:none;
+  color: #1C5380
+}
+.titreLogin .login {
+  color:white;
+  font-weight:400;
+  padding:.35em 1em;
+  /* icon */
+  padding-left:2.5em;
+  background:#4b769b url("../images/home.png") .5em center no-repeat;
+  background-size:1.5em auto;
+  border-radius:.15em;
+  text-decoration: none;
 }
